@@ -1,0 +1,79 @@
+.title {
+    margin-left: 5rem;
+    background-color: aqua;
+}
+
+.players {
+    background-color: #f1f2ee;
+}
+
+.dice  {
+    margin: 2rem 3rem 2rem 6rem;
+    color: blue;
+    font-size: 4rem !important;
+}
+
+.nop {
+    margin: 1rem !important;
+}
+
+.cards {
+    display: block;
+    height: 25rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+}
+
+.select {
+    margin: 3rem !important;
+    max-width: 100% !important;
+}
+
+.searchBar {
+    margin-left: 3rem !important;
+    margin-bottom: 1rem !important;
+    max-width: 100% !important;
+}
+
+.data {
+    max-width: 99% !important;
+    max-height: 100% !important;
+}
+
+.searchIcon {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    height: 10px;
+    color: white !important;
+  }
+
+  .searchStyle {
+    background-color: rgb(50, 148, 185);
+    height: 2rem;
+    width: 180px;
+    margin-right: 5.5rem;
+  }
+  
+  .prize {
+    filter: drop-shadow(2px 4px 6px black);
+    color: yellow;
+  }
+
+  .bet {
+    filter: drop-shadow(2px 4px 6px black);
+    color: gold;
+  }
+
+  .win {
+    filter: drop-shadow(2px 4px 6px black);
+    color: goldenrod;
+  }
+
+  .headerColor {
+      background-color: #f7f5f6;
+  }

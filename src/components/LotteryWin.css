@@ -1,0 +1,78 @@
+.backColor {
+    background-color: #edece6;
+    min-height: 100vh;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 0.5rem !important;
+}
+
+.bet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 5rem;
+    background-color: black;
+    border-radius: 50%;
+    width: 60%;
+    text-align: center;
+    color: goldenrod;
+}
+
+.dividers {
+    padding-top: 4rem;
+}
+
+.divColor {
+    height: 0.2rem;
+    background-color: black !important;
+}
+
+.prize {
+    filter: drop-shadow(2px 4px 6px black);
+    color: yellow;
+  }
+
+  .bet {
+    filter: drop-shadow(2px 4px 6px black);
+    color: gold;
+  }
+
+  .win {
+    filter: drop-shadow(2px 4px 6px black);
+    color: goldenrod;
+  }
+
+  .backBtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .status {
+    background-color: rgb(255, 0, 56);
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.lostPlayers {
+    min-width: 190px;
+    max-height: 203px;
+    border-radius: 8%;
+}
+
+.wonPlayers {
+    min-width: 200px;
+    max-height: 213px;
+    border-radius: 8%;
+}
